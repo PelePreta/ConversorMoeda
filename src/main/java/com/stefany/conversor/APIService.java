@@ -8,8 +8,8 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class APIService {
-    private static final String BASE_URL = "https://v6.exchangerate-api.com/v6";
-    private static final String API_KEY = "4e2edb166f4e051bd9ee44a2 ";
+    private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
+    private static final String API_KEY = "4e2edb166f4e051bd9ee44a2";
 
     public JsonObject buscarTaxa (String moedaOrigem, String moedaDestino)
         throws IOException, InterruptedException {
